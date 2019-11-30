@@ -1,0 +1,620 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Single Page</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/general-style.css" />
+	<link rel="stylesheet" type="text/css" href="css/single-style.css" />
+</head>
+
+<body>
+	
+	<div id="header-wrapper">
+		<div id="header">
+				
+			<div id="top-nav">
+			
+				<ul id="page-menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">Author</a></li>
+					<li><a href="#">Copyright</a></li>
+					<li><a href="#">FAQs</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				
+				<form method="post" id="search-form" action="">
+					<p><input type="text" placeholder="Searching here ..." /></p>
+				</form>
+			</div><!--end div#top-nav-->
+			
+			<a href="#"><img src="images/logo.png" alt="logo" /></a>
+			
+			<ul id="category-menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Newbie</a></li>
+				<li><a href="#">Videos</a>
+					<ul>
+						<li><a href="#">CSS and HTML</a></li>
+						<li><a href="#">jQuery</a></li>
+						<li><a href="#">PHP</a></li>
+						<li><a href="#">Framework</a>
+							<ul>
+								<li><a href="#">Laravel</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Tổng hợp</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Design</a></li>
+				<li><a href="#">jQuery</a></li>
+				<li><a href="#">Wordpress</a></li>
+				<li><a href="#">Tips</a></li>
+			</ul>
+			
+			<div id="store-in-menu">
+				<a href="#">Izwebz store<span>2</span></a>
+				
+				<div>
+					<ul id="list-items-store">
+						<li>
+							<ul>
+								<li><a href="#">+ Cảm nhận của bạn về DVD PSD2HTML ...</a></li>
+								<li><a href="#">+ Đặt hàng mới DVD PHP và MySQL ...</a></li>
+								<li><a href="#">+ Vâng ! Chúng tôi đangkinh doanh</a></li>
+								<li><a href="#">+ DVD mới : PHP và MySQL + izCMS ...</a></li>
+								<li><a href="#">+ Cảm nhận của bạn về DVD DVD PHP và MySQL</a></li>
+							</ul>
+						</li>
+						
+						<li>
+							<h2><a href="#">PSD2HTML + WORDPRESS</a></h2>
+							<p class="money bold">Giá : 90.000 đ</p>
+							<p class="intro">
+								Với 60 Videos và gần 2Gb dữ liệu với những kiến thức cần thiết để bạn trở thành một web Developer thật sự, thì chỉ với 90k VND bạn có thể có tất cả những kiến thức đó...
+							</p>
+						</li>
+						
+						<li>
+							<h2><a href="#">PHP and MySQL + izCMS</a></h2>
+							<p class="money bold">Giá : 230.000 đ</p>
+							<p class="intro">
+								Đây là một bộ DVD hoàn chỉnh dành cho những ai muốn trở thành một lập trình viên PHP. Bộ đĩa này bao gồm 2 DVD, với 145 video tập trung vào những kiến thức căn bản và nâng cao...
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div><!--end #store-in-menu-->
+			
+			<div id="newpost-feed">
+				<div id="hot-new-post">
+					<p class="uppercase bold">Hot <span>new</span> post</p>
+					
+					<div id="new-post-item">
+						<ul>
+							<li>
+								<img src="images/php.jpg" alt="new post php" />
+								<a href="#">Co ban PHP - Bai 1</a>
+							</li>
+							
+							<li>
+								<img src="images/jquery.jpg" alt="new post jquery" />
+								<a href="#">Gioi thieu ve jQuery</a>
+							</li>
+							
+							<li>
+								<img src="images/manbics.png" alt="new post manbics" />
+								<a href="#">Photoshop tutorial - Manbics layout</a>
+							</li>
+						</ul>
+					</div><!--end #new-post-item-->
+				</div><!--end #hot-new-post-->
+				
+				<div id="feed-burner">
+					<ul id="feed">
+						<li id="facebook">
+							<h5 id="facebook" class="uppercase bold"><a href="#">Facebook fans</a></h5>
+							<p>fans</p>
+						</li>
+						
+						<li id="rss">
+							<h5 id="rss" class="uppercase bold"><a href="#">RSS Subscribers</a></h5>
+							<p>1036 reader</p>
+						</li>
+						
+						<li id="twitter">
+							<h5 id="twitter" class="uppercase bold"><a href="#">Twitter followers</a></h5>
+							<p>followers</p>
+						</li>
+					</ul>
+					
+					<form method="post" id="newsletter-form" action="">
+						<p><input type="text" placeholder="Enter your email to receive our newsletter ..." /></p>
+					</form>
+				</div><!--end #feed-burner-->
+			</div><!--end #newpost-feed-->
+
+		</div><!--end #header-->
+	</div><!--end #header-wrapper-->
+
+	<div id="content-sidebar-wrapper">
+		
+		<div id="primary">
+		
+			<div id="content">
+			
+				<div class="post-item radius-shadow-box">
+					<div class="title">
+						<h1 class="post-title">PSD sang HTML – NATURE LAYOUT</h1>
+						<ul class="post-info">
+							<li>Publish by : <a href="#">Tommy</a></li>
+							<li>In category : <a href="#">CSS</a></li>
+							<li><a href="#">65 comments</a></li>
+						</ul>
+
+						<a href="#" class="edit-post-button button">Edit This Post</a>
+					</div><!--end .title-->
+					
+					<div class="metadata">
+						<a href="#" class="thumbnail"><img src="images/nature.jpg" alt="thumbnail psd2html" /></a>
+						
+						<ul>
+							<li><h4>Tutorial details</h4></li>
+							<li><strong>Độ khó:</strong> Trung bình</li>
+							<li><strong>Thời gian:</strong> Cả ngày</li>
+							<li><strong>File size:</strong> Nhỏ hơn 1MB</li>
+							<li><strong>Yêu cầu:</strong> HTML và CSS</li>
+						</ul>
+					</div><!--end .content-->
+					
+					<div class="series">
+						<h3><span>Có 2 bài viết trong series <strong>PSD2HTML by Tommy</strong></span><a href="#">Hide</a></h3>
+						
+						<ul>
+							<li><a href="#">PSD2HTML - BUSSINESS LAYOUT</a></li>
+							<li id="viewing">PSD2HTML - NATURE LAYOUT<span>- Current Post</span></li>
+						</ul>
+					</div><!--end .series-->
+					
+					<div class="content">
+						<h2>Bước 1 : RESET CSS</h2>
+						<p>
+							Xin chào tất cả các bạn, rất vui được gặp lại các bạn trên izwebz, mình là Tommy. Lời đầu tiên tôi xin chân thành cảm ơn tất cả những comments góp ý cũng như ủng hộ của các bạn trong <a href="#">tutorial trước</a> của tôi. Sau này tôi sẽ cố gắng làm thật nhiều tutorials hơn nữa để đáp lại sự ủng hộ nhiệt tình của các bạn.
+						</p>
+						
+						<div class="post-img">
+							<img src="images/cautruc.jpg" alt="post img" />
+						</div><!--end .post-img-->
+
+						<p><strong>Tags:</strong> <a href="#">blue</a>, <a href="#">cool</a>, <a href="#">nice</a>, <a href="#">tutorial</a></p>
+
+						<ul id="content-pagination">
+							<li class="current-content-page">1</li>
+							<li><a href="#">2</a></li>
+						</ul>
+					</div><!--end .content-->
+					
+					<div class="author">
+						<a href="#"><img src="images/avatar-1.jpg" alt="author" class="avatar" /></a>
+						<h3 class="author-name"><a href="#">Tommy</a></h3>
+						<p class="bio">If you want to shine tomorrow, you need to sparkle today.</p>
+					</div><!--end .author_info-->
+				</div><!--end .post-item-->
+
+				<div id="main-comment-form-section" class="radius-shadow-box">
+					<h1>Leave a Comment</h1>
+					<form id="comment-form" class="comment-form" method="post">
+						<div class="form-group">
+							<label>Name: <span class="required">*</span></label>
+							<p>
+								<input type="text" />
+								<span class="error">This is an error field.</span>
+							</p>
+						</div>
+
+						<div class="form-group">
+							<label>Email: <span class="required">*</span></label>
+							<p>
+								<input type="text" />
+								<span class="available">This is an available field.</span>
+							</p>
+						</div>
+
+						<div class="form-group">
+							<label>Comment: <span class="required">*</span></label>
+							<textarea rows="10" cols="49" required></textarea>
+						</div>
+
+						<div class="form-group">
+							<button class="button" type="submit">Post Comment</button>
+						</div>
+					</form>
+				</div>
+
+				<div class="comment-item comment-item-depth-1 radius-shadow-box">
+					
+					<div class="comment-content">
+						<h3>Demon Warlock</h3>
+						<a href="#"><img width="100" height="100" src="images/avatar-1.jpg" alt="commenter" /></a>
+						<p>Ut ut vulputate felis. Pellentesque at lacus sapien. Praesent eu diam diam. Vestibulum nisl lorem, congue id euismod vel, dapibus sed nibh. In maximus, est eget vulputate facilisis, ex urna mollis ipsum, eu ultrices quam purus nec mauris. Mauris a auctor neque, non tempor sapien. Donec sit amet elit pharetra, sollicitudin turpis sit amet, aliquet est. Donec viverra commodo tortor nec molestie. Mauris semper diam nec tristique mollis. Pellentesque sed erat condimentum, lobortis mi sed, maximus mauris. Vestibulum vel fringilla turpis, quis ultricies mi. Vivamus cursus aliquam quam vel elementum. </p>
+
+						<form class="reply-comment-form comment-form" style="display: none;" method="post">
+							<div class="form-group">
+								<label>Name: <span class="required">*</span></label>
+								<p>
+									<input type="text" />
+									<span class="error">This is an error field.</span>
+								</p>
+							</div>
+
+							<div class="form-group">
+								<label>Email: <span class="required">*</span></label>
+								<p>
+									<input type="text" />
+									<span class="available">This is an available field.</span>
+								</p>
+							</div>
+
+							<div class="form-group">
+								<label>Comment: <span class="required">*</span></label>
+								<textarea rows="10" cols="47" required></textarea>
+							</div>
+
+							<div class="form-group">
+								<button class="button" type="submit">Post Comment</button>
+							</div>
+						</form>
+
+						<div class="comment-action">
+							<a class="delete-comment button" href="#">Delete</a>
+							<a class="edit-comment button" href="#">Edit</a>
+							<a class="reply-comment button" href="#">Reply</a>
+						</div>
+						
+					</div><!--end .comment-content-->
+
+					
+					<div class="comment-item comment-item-depth-2">
+						<div class="comment-content">
+							<h3><a href="#">Tobias Rauscher</a></h3>
+							<img width="100" height="100" src="images/avatar-1.jpg" alt="commenter" />
+							<p>Maecenas vel egestas metus, vitae mollis velit. Curabitur eleifend tincidunt varius. In felis dolor, placerat at gravida lobortis, finibus posuere neque. Sed dapibus nec dolor a posuere. Nulla rhoncus maximus enim in mattis. Maecenas sed enim ut nulla suscipit elementum sit amet et nisi. Nullam a risus orci. Aenean vel erat iaculis, blandit dui fringilla, sollicitudin ligula.</p>
+
+							<div class="comment-action">
+								<a class="delete-comment button" href="#">Delete</a>
+								<a class="edit-comment button" href="#">Edit</a>
+							</div>
+						</div>
+						
+					</div><!--end .comment-item-->
+
+					<div class="comment-item comment-item-depth-2">
+						<div class="comment-content">
+							<h3><a href="#">Tobias Rauscher</a></h3>
+							<img width="100" height="100" src="images/avatar-1.jpg" alt="commenter" />
+							<p>Maecenas vel egestas metus, vitae mollis velit. Curabitur eleifend tincidunt varius. In felis dolor, placerat at gravida lobortis, finibus posuere neque. Sed dapibus nec dolor a posuere. Nulla rhoncus maximus enim in mattis. Maecenas sed enim ut nulla suscipit elementum sit amet et nisi. Nullam a risus orci. Aenean vel erat iaculis, blandit dui fringilla, sollicitudin ligula.</p>
+
+							<div class="comment-action">
+								<a class="delete-comment button" href="#">Delete</a>
+								<a class="edit-comment button" href="#">Edit</a>
+							</div>
+						</div>
+						
+					</div><!--end .comment-item-->
+
+				</div>
+
+				<ul id="paginate" class="radius-shadow-box">
+					<li><a href="#">1</a></li>
+					<li class="current-page">2</li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">...</a></li>
+					<li><a href="#">&raquo;</a></li>
+					<li><a href="#">10</a></li>
+					<li><a href="#">20</a></li>
+					<li><a href="#">Trang cuối</a></li>
+				</ul>
+
+			</div><!--end #content-->
+			
+			<div id="sidebar">
+				<div id="random-posts" class="scroller widget-sidebar radius-shadow-box">
+					<h1 class="widget-title">Random Posts</h1>
+					<ul class="posts-list-sidebar">
+						<div>
+							<li>
+								<a href="#"><img src="images/sidebar_1.jpg" alt="nature layout" /></a>
+								<h4><a href="#">PSD sang HTML – NATURE LAYOUT</a></h4>
+								<p>Post by <a href="#">Tommy</a> <span class="date">07/09/2013</span></p>
+							</li>
+							
+							<li>
+								<a href="#"><img src="images/sidebar_2.jpg" alt="newbie" /></a>
+								<h4><a href="#">Base64 image – Lợi hại ?</a></h4>
+								<p>Post by <a href="#">Võ Minh Mẫn</a> <span class="date">04/06/2013</span></p>
+							</li>
+							
+							<li>
+								<a href="#"><img src="images/sidebar_3.jpg" alt="newbie" /></a>
+								<h4><a href="#">Biết nhẫn nại và kiên trì</a></h4>
+								<p>Post by <a href="#">Demon Warlock</a> <span class="date">22/09/2008</span></p>
+							</li>
+							
+							<li>
+								<a href="#"><img src="images/sidebar_4.png" alt="newbie" /></a>
+								<h4><a href="#">Co ban HTML - Phan 4</a></h4>
+								<p>Post by <a href="#">Demon Warlock</a> <span class="date">25/10/2009</span></p>
+							</li>
+							
+							<li>
+								<a href="#"><img src="images/sidebar_5.jpg" alt="newbie" /></a>
+								<h4><a href="#">Co ban PHP - Phan 1</a></h4>
+								<p>Post by <a href="#">Demon Warlock</a> <span class="date">18/03/2013</span></p>
+							</li>
+
+							<li>
+								<a href="#"><img src="images/sidebar_1.jpg" alt="nature layout" /></a>
+								<h4><a href="#">PSD sang HTML – NATURE LAYOUT</a></h4>
+								<p>Post by <a href="#">Tommy</a> <span class="date">07/09/2013</span></p>
+							</li>
+							
+							<li>
+								<a href="#"><img src="images/sidebar_2.jpg" alt="newbie" /></a>
+								<h4><a href="#">Base64 image – Lợi hại ?</a></h4>
+								<p>Post by <a href="#">Võ Minh Mẫn</a> <span class="date">04/06/2013</span></p>
+							</li>
+							
+							<li>
+								<a href="#"><img src="images/sidebar_3.jpg" alt="newbie" /></a>
+								<h4><a href="#">Biết nhẫn nại và kiên trì</a></h4>
+								<p>Post by <a href="#">Demon Warlock</a> <span class="date">22/09/2008</span></p>
+							</li>
+							
+							<li>
+								<a href="#"><img src="images/sidebar_4.png" alt="newbie" /></a>
+								<h4><a href="#">Co ban HTML - Phan 4</a></h4>
+								<p>Post by <a href="#">Demon Warlock</a> <span class="date">25/10/2009</span></p>
+							</li>
+							
+							<li>
+								<a href="#"><img src="images/sidebar_5.jpg" alt="newbie" /></a>
+								<h4><a href="#">Co ban PHP - Phan 1</a></h4>
+								<p>Post by <a href="#">Demon Warlock</a> <span class="date">18/03/2013</span></p>
+							</li>
+						</div>
+					</ul>
+				</div>
+
+				<div id="recent-posts" class="scroller widget-sidebar radius-shadow-box">
+					<h1 class="widget-title">Recent Posts</h1>
+					<ul class="posts-list-sidebar">
+						<div>
+							<li>
+								<a href="#"><img src="images/sidebar_1.jpg" alt="nature layout" /></a>
+								<h4><a href="#">PSD sang HTML – NATURE LAYOUT</a></h4>
+								<p>Post by <a href="#">Tommy</a> <span class="date">07/09/2013</span></p>
+							</li>
+							
+							<li>
+								<a href="#"><img src="images/sidebar_2.jpg" alt="newbie" /></a>
+								<h4><a href="#">Base64 image – Lợi hại ?</a></h4>
+								<p>Post by <a href="#">Võ Minh Mẫn</a> <span class="date">04/06/2013</span></p>
+							</li>
+							
+							<li>
+								<a href="#"><img src="images/sidebar_3.jpg" alt="newbie" /></a>
+								<h4><a href="#">Biết nhẫn nại và kiên trì</a></h4>
+								<p>Post by <a href="#">Demon Warlock</a> <span class="date">22/09/2008</span></p>
+							</li>
+							
+							<li>
+								<a href="#"><img src="images/sidebar_4.png" alt="newbie" /></a>
+								<h4><a href="#">Co ban HTML - Phan 4</a></h4>
+								<p>Post by <a href="#">Demon Warlock</a> <span class="date">25/10/2009</span></p>
+							</li>
+							
+							<li>
+								<a href="#"><img src="images/sidebar_5.jpg" alt="newbie" /></a>
+								<h4><a href="#">Co ban PHP - Phan 1</a></h4>
+								<p>Post by <a href="#">Demon Warlock</a> <span class="date">18/03/2013</span></p>
+							</li>
+
+							<li>
+								<a href="#"><img src="images/sidebar_1.jpg" alt="nature layout" /></a>
+								<h4><a href="#">PSD sang HTML – NATURE LAYOUT</a></h4>
+								<p>Post by <a href="#">Tommy</a> <span class="date">07/09/2013</span></p>
+							</li>
+							
+							<li>
+								<a href="#"><img src="images/sidebar_2.jpg" alt="newbie" /></a>
+								<h4><a href="#">Base64 image – Lợi hại ?</a></h4>
+								<p>Post by <a href="#">Võ Minh Mẫn</a> <span class="date">04/06/2013</span></p>
+							</li>
+							
+							<li>
+								<a href="#"><img src="images/sidebar_3.jpg" alt="newbie" /></a>
+								<h4><a href="#">Biết nhẫn nại và kiên trì</a></h4>
+								<p>Post by <a href="#">Demon Warlock</a> <span class="date">22/09/2008</span></p>
+							</li>
+							
+							<li>
+								<a href="#"><img src="images/sidebar_4.png" alt="newbie" /></a>
+								<h4><a href="#">Co ban HTML - Phan 4</a></h4>
+								<p>Post by <a href="#">Demon Warlock</a> <span class="date">25/10/2009</span></p>
+							</li>
+							
+							<li>
+								<a href="#"><img src="images/sidebar_5.jpg" alt="newbie" /></a>
+								<h4><a href="#">Co ban PHP - Phan 1</a></h4>
+								<p>Post by <a href="#">Demon Warlock</a> <span class="date">18/03/2013</span></p>
+							</li>
+						</div>
+					</ul>
+				</div>
+
+				<div id="recent-comments" class="widget-sidebar radius-shadow-box">
+					<h1 class="widget-title">Recent Comments</h1>
+					<ul class="posts-list-sidebar">
+						<li>
+							<a href="#"><img src="images/sidebar_1.jpg" alt="nature layout" /></a>
+							<h4>Demon Warlock on <a href="#">PSD sang HTML – NATURE LAYOUT</a></h4>
+							<p>Xin chào tất cả các bạn, rất vui được gặp lại các bạn trên izwebz, mình là Tommy. <a href="#">Tommy</a> comments góp ý cũng như ủng hộ [...]</p>
+						</li>
+						
+						<li>
+							<a href="#"><img src="images/sidebar_2.jpg" alt="newbie" /></a>
+							<h4><a href="#">Tobias Rauscher</a> on <a href="#">Base64 image – Lợi hại ?</a></h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a egestas augue, nec sagittis purus. Etiam vel luctus odio, quis venenatis odio. Praesent quis congue justo. Donec aliquam [...]</p>
+						</li>
+						
+						<li>
+							<a href="#"><img src="images/sidebar_3.jpg" alt="newbie" /></a>
+							<h4>Consectetur on <a href="#">Biết nhẫn nại và kiên trì</a></h4>
+							<p>Mauris erat arcu, molestie ac neque sed, bibendum molestie dolor. Vivamus vehicula, lacus at dictum aliquam, velit est consectetur lacus, at condimentum [...]</p>
+						</li>
+						
+						<li>
+							<a href="#"><img src="images/sidebar_4.png" alt="newbie" /></a>
+							<h4><a href="#">Quang Tin</a> on <a href="#">Co ban HTML - Phan 4</a></h4>
+							<p>Integer et pretium velit. Morbi rutrum augue eu nibh iaculis, eget commodo libero pellentesque. Integer lacinia [...]</p>
+						</li>
+						
+						<li>
+							<a href="#"><img src="images/sidebar_5.jpg" alt="newbie" /></a>
+							<h4><a href="#">Tommy</a> on <a href="#">Co ban PHP - Phan 1</a></h4>
+							<p>Vivamus euismod sed enim nec mollis. Duis sagittis diam ut consequat auctor. Fusce sapien magna, egestas sed ultricies ac, faucibus ac neque. Nullam sed turpis viverra, vulputate [...]</p>
+						</li>
+					</ul>
+				</div>
+
+				<div id="store-sidebar" class="widget-sidebar radius-shadow-box">
+					<h1 class="widget-title">Izwebz Store</h1>
+					<img src="images/store.jpg" alt="widget image" />
+				</div><!--end #store-sidebar-->
+
+				<div id="categories-list" class="widget-sidebar radius-shadow-box">
+					<h1 class="widget-title">Categories</h1>
+					
+					<div>
+						<ul>
+							<li><a href="#">Modern Fingerpicking</a></li>
+							<li><a href="#">All About The Bass</a></li>
+							<li><a href="#">Thumbnail Slapping Technique</a></li>
+							<li><a href="#">World Of Harmonics</a></li>
+							<li><a href="#">Performing Body Percussion</a></li>
+						</ul>
+					</div>
+				</div><!--end #tabs-nav-sidebar-->
+				
+				<div id="tabs-nav-sidebar" class="widget-sidebar radius-shadow-box">
+					<h1 class="widget-title">Tabs Navigation</h1>
+					<ul id="tab-buttons">
+						<li><a data-tab="random" href="#">Random</a></li>
+						<li><a data-tab="popular" href="#">Popular</a></li>
+						<li><a data-tab="basic" href="#">Basic</a></li>
+					</ul>
+					
+					<div class="tab-lists">
+						<ul>
+							<li><a href="#">HTML co ban</a></li>
+							<li><a href="#">Tao trang web dau tien</a></li>
+							<li><a href="#">PSD - HTML</a></li>
+							<li><a href="#">Su dung div</a></li>
+							<li><a href="#">CSS selector</a></li>
+							<li><a href="#">Wordpress template</a></li>
+							<li><a href="#">Tao login form</a></li>
+							<li><a href="#">jQuery tabbed navgation</a></li>
+							<li><a href="#">Photoshop can ban</a></li>
+							<li><a href="#">Loi thuong gap voi IE6</a></li>
+						</ul>
+					</div>
+
+					<div class="tab-lists">
+						<ul>
+							<li><a href="#">HTML co ban</a></li>
+							<li><a href="#">Tao trang web dau tien</a></li>
+							<li><a href="#">PSD - HTML</a></li>
+							<li><a href="#">Su dung div</a></li>
+							<li><a href="#">CSS selector</a></li>
+							<li><a href="#">Wordpress template</a></li>
+							<li><a href="#">Tao login form</a></li>
+							<li><a href="#">jQuery tabbed navgation</a></li>
+							<li><a href="#">Photoshop can ban</a></li>
+							<li><a href="#">Loi thuong gap voi IE6</a></li>
+						</ul>
+					</div>
+
+					<div class="tab-lists">
+						<ul>
+							<li><a href="#">HTML co ban</a></li>
+							<li><a href="#">Tao trang web dau tien</a></li>
+							<li><a href="#">PSD - HTML</a></li>
+							<li><a href="#">Su dung div</a></li>
+							<li><a href="#">CSS selector</a></li>
+							<li><a href="#">Wordpress template</a></li>
+							<li><a href="#">Tao login form</a></li>
+							<li><a href="#">jQuery tabbed navgation</a></li>
+							<li><a href="#">Photoshop can ban</a></li>
+							<li><a href="#">Loi thuong gap voi IE6</a></li>
+						</ul>
+					</div>
+				</div><!--end #tabs-nav-sidebar-->
+			</div><!--end #sidebar-->
+		
+		</div><!--end #primary-->
+		
+	</div><!--end #content-sidebar-wrapper-->
+	
+	<div id="footer-wrapper">
+		<div id="footer">
+			<div id="footer-info">
+				<div class="widget-footer">
+					<h6>Giới thiệu izwebz</h6>
+					<p>
+						Izwebz is solemnly hand coded and designed from scratch by Izwebz Team. It is also very proud of being powered by WordPress, which is an exceptionally well written and beautiful CMS.
+					</p>
+				</div>
+				
+				<div class="widget-footer">
+					<h6>Điều khoản sử dụng</h6>
+					<ul>
+						<li>Rules are not made to be broken at Izwebz.</li>
+						<li>Bạn không được tự ý copy và phát hành lại nội dung của izwebz nếu chưa được sự đồng ý của tôi.</li>
+						<li>Biết tôn trọng và cư xử hòa nhã với mọi người</li>
+						<li>Izwebz được quyền xóa những comment nào không phù hợp với nội dung của trang web.</li>
+					</ul>
+				</div>
+				
+				<div class="widget-footer">
+					<h6>Liên kết</h6>
+					<ul>
+						<li><a href="#">muagibando.com</a></li>
+						<li><a href="#">Kaylaximuoi.com</a></li>
+						<li><a href="#">themetiger.com</a></li>
+						<li><a href="#">minhman.com</a></li>
+						<li><a href="#">Tin công nghê</a></li>
+						<li><a href="#">Tin tức game</a></li>
+					</ul>
+				</div>
+				
+				<div class="widget-footer">
+					<h6>Viết bài cho izwebz</h6>
+					<p>
+						Trang web vẫn đang trong quá trình phát triển về nội dung. Do vậy nếu bạn có khả năng hãy đóng góp bài viết hoặc bạn có thể quảng cáo trang web đến những người mà bạn biết. Được vậy tôi sẽ rất biết ơn bạn.
+					</p>
+				</div>
+			</div>
+			
+			<div id="copyright">
+				<p>Copyright &copy; 2013 by Quang Tin</p>
+				<p>Power by Wordpress</p>
+			</div>
+		</div><!--end #footer-->
+	</div><!--end #footer-wrapper-->
+	
+	<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="js/general-scripts.js"></script>
+	<script type="text/javascript" src="js/single-scripts.js"></script>
+</body>
+</html>

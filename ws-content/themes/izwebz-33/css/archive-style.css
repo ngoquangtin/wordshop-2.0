@@ -1,0 +1,12 @@
+#big-page-title {margin-bottom: 20px;}
+#big-page-title h4 {margin: 13px 20px;font-weight: normal;font-family: "arial", tahoma, sans-serif;font-size: 2.6em;}
+
+.post-item {width: 390px; height: 730px;padding-bottom: 20px;margin-bottom: 20px;}
+.post-item a.thumbnail img {width: 100%; height: 378px; border-radius: 6px 6px 0 0;}
+.post-item h1 {margin: 10px 10px 0px 10px;text-align: center;}
+.post-item h1 a {color: #19191a;font-size: 2em;text-align: center;}
+.post-item h1 a:hover {color: #009bdf;}
+.post-item p {margin: 20px 15px 0px 10px;color: #19191a;font-family: "arial", tahoma,sans-serif;font-size: 14px;line-height: 1.5em;text-align: justify;}
+.post-item a.view-more {display: block;width: 120px; height: 33px; line-height: 33px;background-color: #009bdf;color: white;font-family: "arial", tahoma ,sans-serif;font-size: 1.7em;text-transform: uppercase; text-align: center;margin: 20px auto 25px;}
+.post-item a.view-more:hover {background-color: #e02a2d; color: #009bdf;}
+.post-item a.edit-post-button {margin: 20px 15px 0px 130px;}

@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+html,body,div,span,h1,h2,h3,h4,h5,h6,
+p,a,font,img,b,u,i,ol,ul,li,fieldset,form {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}
+body {font-size: 62.5%;font-family: 'Poppins', arial, sans-serif;line-height: 2em;background: #f0f0f0 url(../images/body_bg.jpg) no-repeat left top;}
+ol,ul {list-style: none;}
+a {text-decoration: none; transition: .3s;}
+a img {border: none;}
+p {text-align: justify;}
+img {vertical-align: center;}
+:focus {outline:0;}
+.uppercase {text-transform: uppercase;}
+.bold {font-weight: bold;}
+.radius-shadow-box {border-radius: 6px;box-shadow: 3px 3px 3px #d6d6d6;border: 1px solid #d6d6d6;background-color: white;}
+.float-left {float: left;}
+.float-right {float: right;}
+
+.button {
+    display: inline-block;
+    background: #0085ba;
+    color: #f5f5f5;
+    font-size: 14px;
+    border: 1px solid #006d98;
+    padding: 5px 9px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 1px 0 #006d98;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+}
+	
+.button:hover{background: #008ec2;}
+.button:focus{outline:none;background:#008fc7;box-shadow: 0 1px 0 #0073aa, 0 0 2px 1px #33b3db;}
+.button:active{background:#006d98; box-shadow:0px 1px 1px #000 inset;transform: translate(0,1px);}
+
+#content-sidebar-wrapper {width: 1200px;margin: 0 auto;}
+
+/************************************/
+/*********** HEADER *****************/
+/************************************/
+
+#header-wrapper {width: auto;background: url(../images/header_bg.jpg) repeat-x top left;}
+
+#header {position: relative;width: 1200px;margin: 0 auto;}
+
+#header div#top-nav {overflow: hidden;height: 37px; line-height: 37px;}
+#header div#top-nav ul#page-menu {float: left;}
+#header div#top-nav ul#page-menu li {display: inline-block;}
+#header div#top-nav ul#page-menu li a {display: inline-block;margin-right: 20px;font-family: 'Poppins', tahoma, sand-serif;font-size: 15px;color: white;}
+#header div#top-nav ul#page-menu li a:hover {color: #0fa1e0;}
+#header div#top-nav form#search-form {float: right;}
+#header div#top-nav form#search-form p input {width: 280px;font-style: italic;color: #ababab;border: 1px solid #f1f1f1;padding: 4px 5px;}
+
+#header a img {margin-top: 11px;}
+
+/*****************************/
+/***** Start DROPDOWN MENU Part
+/******************************/
+#header ul#category-menu {width: 100%;height: 52px; line-height: 52px;margin-top: 4px;background: url(../images/menu_bg.jpg) repeat-x top left;border-radius: 6px 6px 0 0;}
+#header ul#category-menu li {position: relative;float: left}
+#header ul#category-menu>li>a {font-weight: bold}
+#header ul#category-menu li a {text-transform: uppercase; display: block;float: left;font-family: 'Poppins', tahoma, sand-serif;font-size: 14px;color: #ffffee;padding: 0 15px 0; }
+#header ul#category-menu>li:first-child>a {border-radius: 6px 0 0 0;}
+#header ul#category-menu>li:hover > a {background: url(../images/menu_bg.jpg) repeat-x bottom left;color: #009bdf;}
+#header ul#category-menu li ul {z-index: 100; width: 215px; position: absolute;top: 52px;box-shadow: 3px 3px 2px #0072c4;display: none;}
+#header ul#category-menu li ul ul {top: 0; left: 215px;}
+#header ul#category-menu li ul li {width: 100%; height: 45px; line-height: 45px;}
+#header ul#category-menu li ul li a {background-color: #0fa1e0;width: 100%;padding: 0; text-indent: 15px;}
+#header ul#category-menu li ul li:hover a {background-color: #0c7fb0;color: white;}
+#header ul#category-menu li ul ul li a {background: #0c7fb0;}
+#header ul#category-menu li ul ul li:hover a {background-color: #095c80;}
+/*
+#header ul#category-menu li:hover ul ul,
+#header ul#category-menu li:hover ul ul ul,
+#header ul#category-menu li:hover ul ul ul ul {display: none;}
+#header ul#category-menu li:hover ul,
+#header ul#category-menu li li:hover ul,
+#header ul#category-menu li li li:hover ul {display: block;}
+*/
+/*****************************/
+/***** End DROPDOWN MENU Part
+/******************************/
+
+/*****************************/
+/***** Start STORE ITEMs IN DROPDOWN MENU Part
+/******************************/
+#header div#store-in-menu {position: absolute;top: 159px; right: 0;}
+
+#header div#store-in-menu div>ul {display: none;}/*
+#header div#store-in-menu:hover div {display: block;}
+*/
+#header div#store-in-menu > a {font-family: 'Poppins', tahoma, sand-serif;font-size: 18px;color: white;display: block;height: 52px; line-height: 52px;padding: 0 10px;float: right;padding-right: 19px;border-radius: 0 6px 0 0;
+
+
+background-image: url(../images/store.png);
+background-repeat: no-repeat;
+background-position: 129px center;
+
+}
+#header div#store-in-menu:hover > a {
+    background-image: url(../images/store_hv.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+#header div#store-in-menu > a span {font-family: 'Poppins', tahoma, sand-serif;font-size: 18px;margin: auto 0 auto 17px;}
+#header div#store-in-menu div {clear: both;width: 129px;}
+#header div#store-in-menu div ul#list-items-store {width: 350px;position: absolute;right: 0;}
+#header div#store-in-menu ul#list-items-store li {font-family: 'Poppins', tahoma, sand-serif;font-size: 16px;color: #fcffde;}
+#header div#store-in-menu ul#list-items-store > li {padding: 8px 13px;background-color: #ff3639;border-bottom: 1px solid #999999;}
+#header div#store-in-menu ul#list-items-store > li:hover {background-color: #e02a2d;}
+#header div#store-in-menu ul#list-items-store li ul {line-height: 1.7em;}
+#header div#store-in-menu ul#list-items-store li a {color: #fcffde;}
+#header div#store-in-menu ul#list-items-store li a:hover {color: #141414;}
+#header div#store-in-menu ul#list-items-store li h2 a {font-size: 24px;}
+#header div#store-in-menu ul#list-items-store li p.money {font-size: 20px;margin: 7px 0 14px 0;}
+/*****************************/
+/***** End STORE ITEMs IN DROPDOWN MENU Part
+/******************************/
+
+/*****************************/
+/***** Start NEW POSTs FEED Part
+/******************************/
+#header #newpost-feed {width: 1198px; height: 82px;overflow: hidden;border-radius: 0 0 6px 6px;box-shadow: 3px 3px 3px #d6d6d6;border: 1px solid #d6d6d6;border-top: none;}
+
+#header #newpost-feed #hot-new-post {float: left;width: 723px;overflow: hidden;background-color: white;height: 100%;}
+#header #newpost-feed #hot-new-post p {float: left;background-color: #f7f7f7;width: 60px;height: 100%;padding: 10px 5px 0;font-family: 'Poppins', tahoma, sans-serif;font-size: 20px;font-weight: bold;color: #3db2e6;}
+#header #newpost-feed #hot-new-post p span {font-size: 16px;}
+#header #newpost-feed #hot-new-post #new-post-item {float: right;width: 653px;}
+#header #newpost-feed #hot-new-post #new-post-item ul {overflow: hidden;padding: 10px 0 0 15px;}
+#header #newpost-feed #hot-new-post #new-post-item ul li {float: left;overflow: hidden;margin-right: 40px;}
+#header #newpost-feed #hot-new-post #new-post-item ul li:last-child {margin-right: 0;}
+#header #newpost-feed #hot-new-post #new-post-item ul li img {width: 60px; height: 60px;float: left;margin-right: 5px;}
+#header #newpost-feed #hot-new-post #new-post-item ul li a {float: right;width: 110px;font-family: 'Poppins', tahoma, sans-serif;font-size: 14px;font-weight: bold;color: #292929;}
+#header #newpost-feed #hot-new-post #new-post-item ul li a:hover {color: #0ea4e3;}
+
+#header #newpost-feed #feed-burner {float: right;width: 475px;height: 100%;}
+#header #newpost-feed #feed-burner ul#feed {margin-left: 10px;}
+#header #newpost-feed #feed-burner ul#feed li {float: left;}
+#header #newpost-feed #feed-burner ul#feed li:not(:last-child) {margin-right: 20px;}
+#header #newpost-feed #feed-burner ul#feed li h5 {}
+#header #newpost-feed #feed-burner ul#feed li h5 a {font-family: 'Poppins', tahoma, sans-serif;font-size: 14px;color: #292929;}
+#header #newpost-feed #feed-burner ul#feed li#facebook h5 a:hover {color: #3a5897;}
+#header #newpost-feed #feed-burner ul#feed li#rss h5 a:hover {color: #f49b27;}
+#header #newpost-feed #feed-burner ul#feed li#twitter h5 a:hover {color: #2bcaff;}
+#header #newpost-feed #feed-burner ul#feed li p {font-family: 'Poppins', tahoma, sans-serif;font-size: 14px;color: #292929;text-indent: 34px;}
+#header #newpost-feed #feed-burner ul#feed li#facebook p {background: transparent url(../images/facebook.png) no-repeat center left;}
+#header #newpost-feed #feed-burner ul#feed li#rss p {background: transparent url(../images/rss.png) no-repeat center left;}
+#header #newpost-feed #feed-burner ul#feed li#twitter p {background: transparent url(../images/twitter.png) no-repeat center left;}
+#header #newpost-feed #feed-burner form {clear: right;margin-left: 9px;}
+#header #newpost-feed #feed-burner form p {border: 1px solid #f1f1f1;}
+#header #newpost-feed #feed-burner form p input {margin: 7px 0 0 0;width: 443px;font-style: italic;color: #ababab;padding: 4px 5px; border: 1px solid #c4c4c4;}
+/*****************************/
+/***** End NEW POSTs FEED Part
+/******************************/
+
+/************************************/
+/*********** Start PRIMARY Part *****************/
+/************************************/
+#primary {width: 100%;margin-top: 18px;overflow: hidden; display: flex; justify-content: space-between}
+
+#primary #content {width: 800px;}
+#primary #content div.post-item {background-color: white;margin-bottom: 20px;overflow: hidden;}
+#primary #content div.post-item div.title {position: relative; background-color: #fafafa;border-bottom: 1px dotted #e6e6e6;padding-bottom: 13px;}
+#primary #content div.post-item div.title h1.post-title {padding: 18px 0 0 12px;}
+#primary #content div.post-item div.title h1.post-title a {font-family: 'Poppins', arial, sand-serif;font-size: 24px;color: #19191a;}
+#primary #content div.post-item div.title h1.post-title a:hover {color: #009bdf;}
+#primary #content div.post-item div.title ul.post-info {overflow: hidden;margin-top: 8px;padding-left: 12px;}
+#primary #content div.post-item div.title ul.post-info li {font-family: 'Poppins', tahoma, sand-serif;font-size: 14px;color: #19191a;float: left;margin-right: 40px;}
+#primary #content div.post-item div.title ul.post-info li {text-indent: 25px;background-color: transparent;background-repeat: no-repeat;background-position: center left;}
+#primary #content div.post-item div.title ul.post-info li a {color: #05a0e3; font-weight: bold;}
+#primary #content div.post-item div.title ul.post-info li:nth-child(1) {background-image: url(../images/publish.png);}
+#primary #content div.post-item div.title ul.post-info li:nth-child(2) {background-image: url(../images/cat.png);}
+#primary #content div.post-item div.title ul.post-info li:nth-child(3) {background-image: url(../images/comments.png);}
+#primary #content div.post-item div.content a.thumbnail img {width: 149px; height: 149px;float: left;border: 1px solid #d6d6d6;padding: 5px;margin: 15px 0 27px 12px;}
+#primary #content div.post-item div.content p.post-excerpt {float: right; width: 570px;font-family: 'Poppins', tahoma ,sans-serif;font-size: 14px;line-height: 1.7em;color: #19191a;margin: 12px 27px 27px 12px;}
+#primary #content div.post-item div.title .edit-post-button {position: absolute; top: 12px; right: 17px;}
+
+#primary #content ul#paginate {background-color: white;overflow: hidden;width: 100%;padding: 10px 0;}
+#primary #content ul#paginate li {display: inline;}
+#primary #content ul#paginate li a {font-family: 'Poppins', tahoma, sans-serif;font-size: 14px;background-color: #009bdf;color: white;font-weight: bold;padding: 8px 10px;border-radius: 5px;margin-left: 12px;}
+#primary #content ul#paginate li a:hover {background-color: #f14a29;}
+#primary #content ul#paginate li.current-page {
+	font-family: 'Poppins', tahoma, sans-serif;
+	font-size: 14px;
+	background: #f14a29;
+	color: white;
+	font-weight: bold;
+	padding: 8px 10px;
+	border-radius: 5px;
+	margin-left: 12px;
+}
+
+#sidebar {width: 380px;}
+#sidebar .widget-sidebar {margin-bottom: 19px;}
+#sidebar .widget-sidebar img {width: 100%;}
+
+#sidebar .widget-sidebar h1.widget-title {height: 36px; line-height: 36px;width: 100%; text-align: center;border-radius: 6px 6px 0 0;font-family: 'Poppins', tahoma, sans-serif;font-size: 18px;background: #009bdf;color: white;font-weight: normal;}
+
+#sidebar .widget-sidebar ul.posts-list-sidebar {margin: 20px 0 23px 0;}
+#sidebar .scroller.widget-sidebar ul.posts-list-sidebar {height: 330px;overflow: hidden;}
+#sidebar .widget-sidebar ul.posts-list-sidebar li {border-top: 1px solid #f7f7f7;border-bottom: 1px solid #f7f7f7;padding: 7px 15px 7px 15px;overflow: hidden;}
+#sidebar .widget-sidebar ul.posts-list-sidebar li:hover {background-color: #fafafa;}
+#sidebar .widget-sidebar ul.posts-list-sidebar li a img {width: 50px; height: 50px;float: left; margin-right: 7px;}
+#sidebar .widget-sidebar ul.posts-list-sidebar li h4 a, 
+#sidebar .widget-sidebar ul.posts-list-sidebar li p {font-family: 'Poppins', tahoma, sans-serif;font-size: 14px;color: #19191a;}
+#sidebar .widget-sidebar ul.posts-list-sidebar li h4 {font-size: 14px; font-weight: normal;}
+#sidebar .widget-sidebar ul.posts-list-sidebar li h4 a {font-weight: bold;}
+#sidebar .widget-sidebar ul.posts-list-sidebar li h4 a:hover {color: #00a5ea;}
+#sidebar .widget-sidebar ul.posts-list-sidebar li p a {color: #19191a;font-weight: bold;}
+#sidebar .widget-sidebar ul.posts-list-sidebar li p a:hover {color: #539be8;}
+
+#sidebar .widget-sidebar div ul {margin: 20px 0 20px 0;}
+#sidebar .widget-sidebar div ul li {border-top: 1px solid #f7f7f7;border-bottom: 1px solid #f7f7f7;}
+#sidebar .widget-sidebar div ul li:hover {background-color: #fafafa;}
+#sidebar .widget-sidebar div ul li:last-child {border-radius: 0 0 6px 6px;}
+#sidebar .widget-sidebar div ul li a {display: block;margin-left: 15px;font-family: 'Poppins', tahoma, sans-serif;font-size: 15px;color: #19191a;padding: 6px 0 6px 0;}
+#sidebar .widget-sidebar div ul li a:hover {color: #f4602d; margin-left: 25px;}
+
+#sidebar #store-sidebar h2 {width: 360px;text-align: center;margin: 18px auto 0;}
+#sidebar #store-sidebar h2 a {font-family: 'Poppins', arial, sans-serif;font-size: 18px;color: #19191a;}
+#sidebar #store-sidebar h2 a:hover {color: #009be4;}
+#sidebar #store-sidebar p.short-para {font-family: 'Poppins', tahoma, sans-serif;font-size: 14px;color: #19191a;line-height: 1.6em;margin: 20px 15px 0 15px;}
+
+#sidebar #tabs-nav-sidebar ul#tab-buttons {margin-top: 13px;}
+#sidebar #tabs-nav-sidebar ul#tab-buttons li {display: inline-block;}
+#sidebar #tabs-nav-sidebar ul#tab-buttons li a {display: inline-block;font-family: 'Poppins', arial, sans-serif;font-size: 15px;color: white;text-transform: uppercase;padding: 5px 10px;background-color: #009bdf;border-radius: 4px;margin-left: 10px;}
+#sidebar #tabs-nav-sidebar ul#tab-buttons li a.active-tab, #sidebar #tabs-nav-sidebar #tab-buttons li a:hover {background: #f14a29;}
+
+/************************************/
+/*********** FOOTER*****************/
+/************************************/
+#footer-wrapper {width: auto;background-color: #fefefe;}
+#footer {width: 1200px;margin: 80px auto 0;padding-bottom: 12px;}
+/************************************/
+/*********** FOOTER --> FOOTER INFO *****************/
+/************************************/
+#footer #footer-info {overflow: hidden; display: flex;}
+#footer #footer-info .widget-footer {width: 1200px;}
+#footer #footer-info .widget-footer:not(:last-child){margin-right: 25px;}
+
+#footer #footer-info .widget-footer h6 {font-family: 'Poppins', arial, sans-serif;font-size: 18px;color: #575757;background: url(../images/chi_muc.jpg) no-repeat center left;text-indent: 25px;margin: 11px 0 15px 0;}
+#footer #footer-info .widget-footer p {font-family: 'Poppins', arial, sans-serif;font-size: 14px;color: #575757;line-height: 1.6em;}
+#footer #footer-info .widget-footer ul {list-style-type: square;list-style-position: inside;}
+#footer #footer-info .widget-footer ul li {font-family: 'Poppins', arial, sans-serif;font-size: 14px;color: #575757;}
+#footer #footer-info .widget-footer ul li a {color: #575757;}
+#footer #footer-info .widget-footer ul li a:hover {color: #009be9; margin-left: 10px;}
+/************************************/
+/*********** FOOTER --> COPYRIGHT *****************/
+/************************************/
+#footer #copyright {overflow: hidden;border-top: 1px solid #d6d6d6;margin-top: 16px; padding-top: 16px;}
+#footer #copyright p {font-family: 'Poppins', arial, sans-serif;font-size: 14px;color: #575757;}
+#footer #copyright p:first-child {float: left;}
+#footer #copyright p:last-child {float: right;}
